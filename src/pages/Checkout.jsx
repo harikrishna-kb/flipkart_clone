@@ -49,10 +49,30 @@ function Checkout() {
       return;
     }
 
-    // Generate a random order ID and pass it to the success page
+    // Capture order details BEFORE clearing the cart, then persist them
+    // in sessionStorage so the success page survives a refresh.
     const orderId = 'OD' + Math.floor(Math.random() * 9000000000 + 1000000000);
+    const orderItems = items.map(({ product, quantity }) => {
+      const dp = Math.round(product.price - (product.price * product.discount) / 100);
+      return {
+        name: product.name,
+        quantity,
+        price: dp,
+      };
+    });
+    const order = {
+      orderId,
+      payment,
+      total: grandTotal,
+      subtotal,
+      deliveryCharge,
+      items: orderItems,
+      address: { ...address },
+      placedAt: new Date().toISOString(),
+    };
+    sessionStorage.setItem('flipkart_last_order', JSON.stringify(order));
     clearCart();
-    navigate('/order-success', { state: { orderId, payment, total: grandTotal } });
+    navigate('/order-success', { state: order });
   }
 
   return (
