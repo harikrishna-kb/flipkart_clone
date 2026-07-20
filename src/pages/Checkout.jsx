@@ -71,10 +71,11 @@ function Checkout() {
       placedAt: new Date().toISOString(),
     };
     sessionStorage.setItem('flipkart_last_order', JSON.stringify(order));
-    // Navigate BEFORE clearing the cart — otherwise the empty-cart guard
-    // in this component fires first and redirects to /cart.
     navigate('/order-success', { state: order });
-    clearCart();
+    // Defer clearing the cart to the next tick so the route change is
+    // committed first — otherwise the empty-cart guard in this component
+    // re-renders and redirects to /cart before /order-success is shown.
+    setTimeout(() => clearCart(), 0);
   }
 
   return (
