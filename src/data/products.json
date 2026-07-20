@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Redmi 12 5G (128GB)",
+    "brand": "Xiaomi",
+    "category": "Mobiles",
+    "price": 11999,
+    "rating": 4.3,
+    "discount": 25,
+    "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S23 FE (256GB)",
+    "brand": "Samsung",
+    "category": "Mobiles",
+    "price": 39999,
+    "rating": 4.5,
+    "discount": 18,
+    "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "name": "iPhone 15 (128GB)",
+    "brand": "Apple",
+    "category": "Mobiles",
+    "price": 69900,
+    "rating": 4.7,
+    "discount": 5,
+    "image": "https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "name": "Realme C55 (64GB)",
+    "brand": "Realme",
+    "category": "Mobiles",
+    "price": 10999,
+    "rating": 4.1,
+    "discount": 20,
+    "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "name": "HP Pavilion Laptop i5 12th Gen",
+    "brand": "HP",
+    "category": "Laptops",
+    "price": 54990,
+    "rating": 4.4,
+    "discount": 15,
+    "image": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "name": "ASUS ROG Strix Gaming Laptop",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "price": 89999,
+    "rating": 4.6,
+    "discount": 12,
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 7,
+    "name": "Dell Inspiron 15 Core i7",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 62490,
+    "rating": 4.2,
+    "discount": 10,
+    "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 8,
+    "name": "MacBook Air M2 13-inch",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 99990,
+    "rating": 4.8,
+    "discount": 8,
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 9,
+    "name": "boAt Airdopes 141 TWS Earbuds",
+    "brand": "boAt",
+    "category": "Audio",
+    "price": 1299,
+    "rating": 4.0,
+    "discount": 60,
+    "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 10,
+    "name": "Sony WH-1000XM4 Headphones",
+    "brand": "Sony",
+    "category": "Audio",
+    "price": 24990,
+    "rating": 4.6,
+    "discount": 30,
+    "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 11,
+    "name": "JBL Flip 6 Bluetooth Speaker",
+    "brand": "JBL",
+    "category": "Audio",
+    "price": 8999,
+    "rating": 4.4,
+    "discount": 22,
+    "image": "https://images.pexels.com/photos/1270694/pexels-photo-1270694.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 12,
+    "name": "Fire-Boltt Smartwatch Ninja 2",
+    "brand": "Fire-Boltt",
+    "category": "Wearables",
+    "price": 1999,
+    "rating": 3.9,
+    "discount": 70,
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "name": "Noise ColorFit Pro 4 Smartwatch",
+    "brand": "Noise",
+    "category": "Wearables",
+    "price": 2999,
+    "rating": 4.1,
+    "discount": 55,
+    "image": "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 14,
+    "name": "Apple Watch Series 9 GPS",
+    "brand": "Apple",
+    "category": "Wearables",
+    "price": 41900,
+    "rating": 4.7,
+    "discount": 6,
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 15,
+    "name": "Mi 5A 43-inch Full HD Smart TV",
+    "brand": "Xiaomi",
+    "category": "TVs",
+    "price": 25999,
+    "rating": 4.2,
+    "discount": 35,
+    "image": "https://images.pexels.com/photos/333984/pexels-photo-333984.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 16,
+    "name": "Samsung 55-inch Crystal 4K UHD TV",
+    "brand": "Samsung",
+    "category": "TVs",
+    "price": 44990,
+    "rating": 4.5,
+    "discount": 20,
+    "image": "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 17,
+    "name": "LG 32-inch HD Ready LED TV",
+    "brand": "LG",
+    "category": "TVs",
+    "price": 15999,
+    "rating": 4.0,
+    "discount": 28,
+    "image": "https://images.pexels.com/photos/333984/pexels-photo-333984.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 18,
+    "name": "Logitech MX Master 3S Mouse",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "price": 7999,
+    "rating": 4.6,
+    "discount": 15,
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 19,
+    "name": "Dell Wireless Keyboard & Mouse Combo",
+    "brand": "Dell",
+    "category": "Accessories",
+    "price": 1599,
+    "rating": 4.1,
+    "discount": 40,
+    "image": "https://images.pexels.com/photos/2669615/pexels-photo-2669615.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 20,
+    "name": "Canon EOS R50 Mirrorless Camera",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 67995,
+    "rating": 4.5,
+    "discount": 10,
+    "image": "https://images.pexels.com/photos/51383/laptop-computer-mouse-keyboard-51383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]
