@@ -63,10 +63,12 @@ export function CartProvider({ children }) {
 
   // Derived totals used by the cart and checkout pages
   const totalItems = items.reduce((sum, i) => sum + i.quantity, 0);
-  const subtotal = items.reduce(
-    (sum, i) => sum + i.product.price * i.quantity,
-    0,
-  );
+  const subtotal = items.reduce((sum, i) => {
+    const dp = Math.round(
+      i.product.price - (i.product.price * i.product.discount) / 100,
+    );
+    return sum + dp * i.quantity;
+  }, 0);
   // Free delivery over ₹500, otherwise ₹40
   const deliveryCharge = subtotal > 500 || subtotal === 0 ? 0 : 40;
   const grandTotal = subtotal + deliveryCharge;
